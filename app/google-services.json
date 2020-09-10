@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "458524195475",
+    "firebase_url": "https://bemfapetipb-9dcfe.firebaseio.com",
+    "project_id": "bemfapetipb-9dcfe",
+    "storage_bucket": "bemfapetipb-9dcfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458524195475:android:ff6b921e22ab5a9290ab66",
+        "android_client_info": {
+          "package_name": "com.app.bemfapetipb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458524195475-2fns9unjgl5mvnmv5mht6269q92lnf30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.bemfapetipb",
+            "certificate_hash": "2a4c163a045b3925db087c443342e7ce3d26c6cb"
+          }
+        },
+        {
+          "client_id": "458524195475-78nqeagrqer5avb9hc481l0e2hm2gkob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XSfRAy9x8mrXBNks_QBzQRS2_t_-UjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458524195475-78nqeagrqer5avb9hc481l0e2hm2gkob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

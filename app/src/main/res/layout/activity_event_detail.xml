@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventDetailActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/article_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:src="@drawable/ic_launcher_background"
+                    android:scaleType="centerCrop"/>
+
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="@android:color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/ic_chevron_left_black_24dp"/>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PENULIS"
+                        android:textSize="10sp"
+                        android:textColor="#2d2d2d"/>
+
+
+                    <TextView
+                        android:id="@+id/article_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tips Sukses Jadi Wanita Karir Sekaligus Ibu Rumah Tangga"
+                        android:layout_marginTop="4dp"
+                        android:textSize="18sp"
+                        android:textColor="#2d2d2d"/>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:src="@drawable/ic_clock"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="2dp"/>
+
+                        <TextView
+                            android:id="@+id/article_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="42 hours"
+                            android:textSize="10sp"
+                            android:textColor="#2d2d2d"
+                            android:layout_marginLeft="4dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_bookmark"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"
+                android:textSize="10sp"
+                android:textColor="#2d2d2d"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"/>
+
+
+            <TextView
+                android:id="@+id/article_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2d2d2d"
+                android:textSize="12sp"
+                android:lineSpacingExtra="2dp"
+                android:text="Banyak kaum hawa yang kini memilih jadi wanita karir. Tidak sedikit yang memadukannya dengan menjadi ibu rumah tangga. Bagaimana menyeimbangkannya?"
+                android:layout_margin="12dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
